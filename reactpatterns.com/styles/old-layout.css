@@ -110,3 +110,16 @@ hr {
   border-bottom-width: 1px;
   max-width: 16em;
 }
+
+/* Internal Links */
+a.hash-links {
+    color: gray;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    visibility: hidden;
+}
+h2:hover a.hash-links {
+    visibility: visible;
+}
+
