@@ -8,15 +8,15 @@ Get the latest React patterns, tips, and tricks right to your inbox.
 
 <script async data-uid="b3af526942" src="https://f.convertkit.com/b3af526942/aee6ebe0cb.js"></script>
 
-<h2 id="contents">Contents <a href="#contents" class="hash-links">#</a></h2>
+## Contents
 
-<h2 id="translations">Translations <a href="#translations" class="hash-links">#</a></h2>
+<h2 id="translations">Translations <a href="#translations" className="hash-links">#</a></h2>
 
 These translations are not verified and links are not endorsements.
 
 [Chinese](https://reactpatterns.cn)
 
-<h2 id="element">Element <a href="#element" class="hash-links">#</a></h2>
+<h2 id="element">Element <a href="#element" className="hash-links">#</a></h2>
 
 [Elements](https://reactjs.org/docs/glossary.html#elements) are anything inside angle brackets.
 
@@ -27,7 +27,7 @@ These translations are not verified and links are not endorsements.
 
 [Components](#component) return Elements.
 
-<h2 id="component">Component <a href="#component" class="hash-links">#</a></h2>
+<h2 id="component">Component <a href="#component" className="hash-links">#</a></h2>
 
 Define a [Component](https://reactjs.org/docs/glossary.html#components) by declaring a function that returns a React [Element](#element).
 
@@ -37,7 +37,7 @@ function Greeting() {
 }
 ```
 
-<h2 id="expressions">Expressions <a href="#expressions" class="hash-links">#</a></h2>
+<h2 id="expressions">Expressions <a href="#expressions" className="hash-links">#</a></h2>
 
 Use curly braces to [embed expressions](https://reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx) in [JSX](https://reactjs.org/docs/glossary.html#jsx).
 
@@ -49,7 +49,7 @@ function Greeting() {
 }
 ```
 
-<h2 id="props">Props <a href="#props" class="hash-links">#</a></h2>
+<h2 id="props">Props <a href="#props" className="hash-links">#</a></h2>
 
 Take `props` as an argument to allow outside customizations of your Component.
 
@@ -59,7 +59,7 @@ function Greeting(props) {
 }
 ```
 
-<h2 id="defaultprops">defaultProps <a href="#defaultprops" class="hash-links">#</a></h2>
+<h2 id="defaultprops">defaultProps <a href="#defaultprops" className="hash-links">#</a></h2>
 
 Specify default values for `props` with `defaultProps`.
 
@@ -74,7 +74,7 @@ Greeting.defaultProps = {
 
 ---
 
-<h2 id="destructuring-props">Destructuring props <a href="#destructuring-props" class="hash-links">#</a></h2>
+<h2 id="destructuring-props">Destructuring props <a href="#destructuring-props" className="hash-links">#</a></h2>
 
 [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) is a JavaScript feature.  
 It was added to the language in ES2015.  
@@ -123,7 +123,7 @@ Keep reading...
 
 ---
 
-<h2 id="jsx-spread-attributes">JSX spread attributes <a href="#jsx-spread-attributes" class="hash-links">#</a></h2>
+<h2 id="jsx-spread-attributes">JSX spread attributes <a href="#jsx-spread-attributes" className="hash-links">#</a></h2>
 
 Spread Attributes is a feature of [JSX](https://reactjs.org/docs/introducing-jsx.html).  
 It's a syntax for providing an object's properties as JSX attributes.
@@ -155,7 +155,7 @@ function Greeting({ name, ...platformProps }) {
 
 ---
 
-<h2 id="merge-destructured-props-with-other-values">Merge destructured props with other values <a href="#merge-destructured-props-with-other-values" class="hash-links">#</a></h2>
+<h2 id="merge-destructured-props-with-other-values">Merge destructured props with other values <a href="#merge-destructured-props-with-other-values" className="hash-links">#</a></h2>
 
 Components are abstractions.  
 Good abstractions allow for extension.
@@ -212,7 +212,7 @@ Bear in mind though that if an empty object is passed it'll be included in the c
 
 The better approach is to make use of available packages, like [classnames](https://www.npmjs.com/package/classnames) or [clsx](https://www.npmjs.com/package/clsx), that could be used to join classnames, relieving you from having to deal with it manually.
 
-<h2 id="conditional-rendering">Conditional rendering <a href="#conditional-rendering" class="hash-links">#</a></h2>
+<h2 id="conditional-rendering">Conditional rendering <a href="#conditional-rendering" className="hash-links">#</a></h2>
 
 You can't use if/else statements inside a component declarations.  
 So [conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) and [short-circuit evaluation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Short-circuit_evaluation) are your friends.
@@ -245,7 +245,7 @@ So [conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web
 }
 ```
 
-<h2 id="children-types">Children types <a href="#children-types" class="hash-links">#</a></h2>
+<h2 id="children-types">Children types <a href="#children-types" className="hash-links">#</a></h2>
 
 React can render `children` from most types.  
 In most cases it's either an `array` or a `string`.
@@ -262,7 +262,7 @@ In most cases it's either an `array` or a `string`.
 <div>{["Hello ", <span>World</span>, "!"]}</div>
 ```
 
-<h2 id="array-as-children">Array as children <a href="#array-as-children" class="hash-links">#</a></h2>
+<h2 id="array-as-children">Array as children <a href="#array-as-children" className="hash-links">#</a></h2>
 
 Providing an array as `children` is a very common.  
 It's how lists are drawn in React.
@@ -293,12 +293,12 @@ This pattern can be combined with destructuring, JSX Spread Attributes, and othe
 </ul>
 ```
 
-<h2 id="function-as-children">Function as children <a href="#function-as-children" class="hash-links">#</a></h2>
+<h2 id="function-as-children">Function as children <a href="#function-as-children" className="hash-links">#</a></h2>
 
 React components don't support functions as `children`.
 However, [render props](#render-prop) is a pattern for creating components that take functions as children.
 
-<h2 id="render-prop">Render prop <a href="#render-prop" class="hash-links">#</a></h2>
+<h2 id="render-prop">Render prop <a href="#render-prop" className="hash-links">#</a></h2>
 
 Here's a component that uses a render callback.  
 It's not useful, but it's an easy illustration to start with.
@@ -362,7 +362,7 @@ class WindowWidth extends React.Component {
 
 Many developers favor [Higher Order Components](#higher-order-component) for this type of functionality. It's a matter of preference.
 
-<h2 id="children-passthrough">Children pass-through <a href="#children-passthrough" class="hash-links">#</a></h2>
+<h2 id="children-passthrough">Children pass-through <a href="#children-passthrough" className="hash-links">#</a></h2>
 
 You might create a component designed to apply `context` and render its `children`.
 
@@ -394,7 +394,7 @@ It's best to treat `children` as an opaque data type. React provides `React.Chil
 return React.Children.only(this.props.children);
 ```
 
-<h2 id="proxy-component">Proxy component <a href="#proxy-component" class="hash-links">#</a></h2>
+<h2 id="proxy-component">Proxy component <a href="#proxy-component" className="hash-links">#</a></h2>
 
 _(I'm not sure if this name makes sense)_
 
@@ -421,7 +421,7 @@ We can use `Button` in place of `button` and ensure that the `type` attribute is
 // <button type="button" class="CTA">Send Money</button>
 ```
 
-<h2 id="style-component">Style component <a href="#style-component" class="hash-links">#</a></h2>
+<h2 id="style-component">Style component <a href="#style-component" className="hash-links">#</a></h2>
 
 This is a [Proxy component](#proxy-component) applied to the practices of style.
 
@@ -466,7 +466,7 @@ Using these components, all of these result in the same output.
 
 This can be a huge boon to style maintenance. It isolates all concerns of style to a single component.
 
-<h2 id="event-switch">Event switch <a href="#event-switch" class="hash-links">#</a></h2>
+<h2 id="event-switch">Event switch <a href="#event-switch" className="hash-links">#</a></h2>
 
 When writing event handlers it's common to adopt the `handle{eventName}` naming convention.
 
@@ -507,7 +507,7 @@ Alternatively, for simple components, you can call imported actions/functions di
 
 Don't fret about performance optimizations until you have problems. Seriously don't.
 
-<h2 id="layout-component">Layout component <a href="#layout-component" class="hash-links">#</a></h2>
+<h2 id="layout-component">Layout component <a href="#layout-component" className="hash-links">#</a></h2>
 
 Layout components result in some form of static DOM element. It might not need to update frequently, if ever.
 
@@ -541,7 +541,7 @@ class HorizontalSplit extends React.Component {
 }
 ```
 
-<h2 id="container-component">Container component <a href="#container-component" class="hash-links">#</a></h2>
+<h2 id="container-component">Container component <a href="#container-component" className="hash-links">#</a></h2>
 
 "A container does data fetching and then renders its corresponding sub-component. That’s it."&mdash;[Jason Bonta](https://twitter.com/jasonbonta)
 
@@ -585,7 +585,7 @@ class CommentListContainer extends React.Component {
 
 We can write different containers for different application contexts.
 
-<h2 id="higherorder-component">Higher-order component <a href="#higherorder-component" class="hash-links">#</a></h2>
+<h2 id="higherorder-component">Higher-order component <a href="#higherorder-component" className="hash-links">#</a></h2>
 
 A [higher-order function](https://en.wikipedia.org/wiki/Higher-order_function) is a function that takes and/or returns a function. It's not more complicated than that. So, what's a higher-order component?
 
@@ -634,7 +634,7 @@ const ConnectedMyComponent = Connect(Greeting);
 
 This is a powerful pattern for providing fetching and providing data to any number of [function components](#function-component).
 
-<h2 id="state-hoisting">State hoisting <a href="#state-hoisting" class="hash-links">#</a></h2>
+<h2 id="state-hoisting">State hoisting <a href="#state-hoisting" className="hash-links">#</a></h2>
 
 [function-component](#function-component) don't hold state (as the name implies).
 
@@ -685,7 +685,7 @@ _[Controlled input](#controlled-input) is an important pattern to know for use w
 
 _(It's best to process the event object on the stateful component)_
 
-<h2 id="controlled-input">Controlled input <a href="#controlled-input" class="hash-links">#</a></h2>
+<h2 id="controlled-input">Controlled input <a href="#controlled-input" className="hash-links">#</a></h2>
 
 It's hard to talk about controlled inputs in the abstract.
 Let's start with an uncontrolled (normal) input and go from there.
