@@ -112,14 +112,14 @@ hr {
 }
 
 /* Internal Links */
-a.hash-links {
+h2 a {
     color: gray;
     display: inline-block;
     margin-left: 10px;
     cursor: pointer;
     visibility: hidden;
 }
-h2:hover a.hash-links {
+h2:hover a {
     visibility: visible;
 }
 
