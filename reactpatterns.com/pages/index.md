@@ -10,7 +10,7 @@ Get the latest React patterns, tips, and tricks right to your inbox.
 
 ## Contents
 
-## Translations
+<h2 id="translations">Translations <a href="#translations" class="hash-links">#</a></h2>
 
 These translations are not verified and links are not endorsements.
 
